@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body {
+    font-family: "Ubuntu", sans-serif;
+}
+
+nav{
+    z-index: 10001 !important;
+}
+
+.gradientBg{
+    background: linear-gradient(99deg, #e71d36 0%, #ffa69e 100%); 
+}
+
+.btnPrimary{
+    @apply py-3 px-8 bg-white font-semibold text-black rounded-full hover:bg-[#0d1b2a] hover:text-white transition-all duration-300;
+}
+
+.btnSecondary{
+    @apply py-3 px-8 bg-[#a11d33] font-semibold text-black rounded-full hover:bg-[#0d1b2a] hover:text-white transition-all duration-300;
+}
